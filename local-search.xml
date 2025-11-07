@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Hexo博客建设</title>
+    <link href="/2025/11/07/Hexo%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/"/>
+    <url>/2025/11/07/Hexo%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/</url>
+    
+    <content type="html"><![CDATA[<p>博客的搭建、维护、美化记录</p><span id="more"></span><ul><li><a href="https://hexo.fluid-dev.com/docs/">Hexo Fluid 主题手册</a></li><li><a href="https://hexo.io/zh-cn/docs/">Hexo 中文文档</a></li></ul><h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><ul><li>备份迁移流程SOP</li><li>公式渲染</li><li>背景图换个鲜亮的，死气沉沉</li><li>pv,uv统计 <a href="https://busuanzi.ibruce.info/">不蒜子方案</a></li></ul><h3 id="Hexo-博客"><a href="#Hexo-博客" class="headerlink" title="Hexo 博客"></a>Hexo 博客</h3><p><a href="https://hexo.io/zh-cn/docs/">Hexo 中文文档</a></p><h4 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h4><p>几件事：</p><ul><li><code>npm</code>安装hexo以及hexo渲染相关依赖</li><li><code>hexo init</code> 初始化一个文件夹 作为博客项目文件夹</li><li>Github托管配置<ul><li>github ssh 配置</li><li>github pages 配置</li><li>hexo deploy 配置 (<code>_config.yml</code>)</li></ul></li></ul><h4 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h4><ul><li><code>hexo clean &amp;&amp; hexo generate &amp;&amp; hexo server</code> 本地重新部署</li><li><code>hexo deploy</code> 推到远程</li><li><code>hexo new [draft] &quot;title&quot;</code> 新建文章</li><li>删除直接删除<code>_posts</code>中的文章即可</li></ul><h4 id="环境迁移"><a href="#环境迁移" class="headerlink" title="环境迁移"></a>环境迁移</h4><p><a href="https://zhuanlan.zhihu.com/p/63434340">方案参考</a></p><p>由于hexo deploy只会deploy其publish的部分，其他元数据以及配置并不会推到远程仓库，因此将元数据及配置推送到其他分支进行备份 (<code>backup</code>分支)。<br>在迁移新设备时，安装好hexo相关依赖，用hexo初始化一个文件夹后后，clone backup分支的内容到相应位置。</p><h3 id="Fluid-主题"><a href="#Fluid-主题" class="headerlink" title="Fluid 主题"></a>Fluid 主题</h3><p><a href="https://hexo.fluid-dev.com/docs/">Hexo Fluid 主题手册</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>其他</category>
+      
+      <category>博客搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客建设</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>排序算法小结</title>
     <link href="/2025/11/07/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%B0%8F%E7%BB%93/"/>
     <url>/2025/11/07/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%B0%8F%E7%BB%93/</url>
